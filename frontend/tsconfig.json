@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+      "target": "es5",                         // Cible de compilation
+      "module": "commonjs",                    // Module utilisé
+      "jsx": "react-jsx",                      // Active le support de JSX
+      "strict": true,                          // Mode strict
+      "esModuleInterop": true,                 // Permet l'importation d'exports CommonJS
+      "skipLibCheck": true,                    // Ignore la vérification des types de bibliothèque
+      "forceConsistentCasingInFileNames": true, // Force une cohérence dans la capitalisation des noms de fichiers
+      "lib": ["es2015", "dom"]                 // Inclure ES2015 et DOM pour les fonctionnalités modernes
+  },
+  "include": ["src/**/*"], // Inclure tous les fichiers dans le dossier src
+  "exclude": ["node_modules"] // Exclure le dossier node_modules
+}

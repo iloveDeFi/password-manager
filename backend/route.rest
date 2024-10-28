@@ -1,0 +1,32 @@
+### Récupérer tous les mots de passe
+GET http://localhost:3000/passwords
+
+###
+
+### Récupérer un mot de passe par ID
+GET http://localhost:3000/passwords/{id} 
+
+###
+
+### Ajouter un mot de passe
+POST http://localhost:3000/passwords
+Content-Type: application/json
+
+{
+    "password": "currentPassword"
+}
+
+###
+
+### Mettre à jour un mot de passe par ID
+PUT http://localhost:3000/passwords/{id}
+Content-Type: application/json
+
+{
+    "password": "newPassword"
+}
+
+###
+
+### Supprimer un mot de passe par ID
+DELETE http://localhost:3000/passwords/{id}
