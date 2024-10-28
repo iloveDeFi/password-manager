@@ -1,8 +1,8 @@
 # Utiliser une image de Node.js
-FROM node:14
+FROM node:18
 
 # Créer le dossier de l'application
-WORKDIR /usr/src/app
+WORKDIR /Password/frontend
 
 # Copier les fichiers de package et installer les dépendances
 COPY package*.json ./
@@ -18,4 +18,4 @@ RUN npm run build
 EXPOSE 3000
 
 # Commande pour démarrer l'application
-CMD ["npm", "run", "start"]
+CMD ["npm", "start"]

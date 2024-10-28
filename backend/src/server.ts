@@ -1,6 +1,9 @@
 import express from 'express';
+import dotenv from 'dotenv';  // Importer dotenv
 import connectDB from './config/database';
 import passwordRoutes from './routes/passwordRoutes';
+
+dotenv.config();  // Charger les variables d'environnement
 
 const app = express();
 const PORT = process.env.PORT || 3000;
