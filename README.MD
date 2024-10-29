@@ -2,7 +2,7 @@
 
 ## Description
 
-Ce projet est un gestionnaire de mots de passe moderne, construit avec React, TypeScript et Tailwind CSS pour le frontend, et Node.js avec Express pour le backend. L'application permet aux utilisateurs de stocker, gérer et récupérer leurs mots de passe de manière sécurisée.
+Ce projet est un gestionnaire de mots de passe moderne, construit avec React, TypeScript et Tailwind CSS pour le frontend, et Node.js avec Express pour le backend et MongoDB + Mongoose pour la DB. L'application permet aux utilisateurs de stocker, gérer et récupérer leurs mots de passe de manière sécurisée.
 
 ## Technologies Utilisées
 
@@ -16,6 +16,7 @@ Ce projet est un gestionnaire de mots de passe moderne, construit avec React, Ty
 
 ### Backend
 
+- **MongoDB + Mongoose**: Database (not Postgre sorry)
 - **Node.js**: Environnement d'exécution JavaScript côté serveur.
 - **Express**: Framework web minimaliste pour Node.js.
 - **Cors**: Middleware pour gérer les problèmes de Cross-Origin Resource Sharing.
